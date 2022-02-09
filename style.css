@@ -1,0 +1,56 @@
+body {
+  background-color: #ffe8b5;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:16px;
+}
+
+h1,
+h4
+{
+  font-family: "Poppins", sans-serif;
+  color: rgb(98, 0, 255);
+}
+
+p {
+  font-size: 2rem;  
+  color: rgb(241, 69, 69);
+}
+
+hr {
+  border: none;
+  border-top: 5px dotted rgb(41, 129, 41);
+}
+
+a:link {
+  color: rgb(41, 129, 41);
+  text-decoration: none;
+}
+
+a:visited {
+  color: rgb(41, 129, 41);
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(241, 69, 69);
+  text-decoration: none;
+}
+
+a:active {
+  color: rgb(241, 69, 69);
+  text-decoration: none;
+  font-style: italic;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li::before {
+  content: "\2022";
+  color: green;
+  font-weight: bold;
+  display: inline-block; 
+  width: 1em;
+  margin-left: -1em;
+}
